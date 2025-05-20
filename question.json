@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which programming language is primarily used for developing Android apps?",
+    "options": ["Python", "Swift", "Kotlin", "JavaScript"],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "HyperTransfer Markup Language",
+      "HyperText Markdown Language"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which language is known for its use in Artificial Intelligence and Machine Learning?",
+    "options": ["Java", "C++", "Python", "PHP"],
+    "correctIndex": 2
+  },
+  {
+    "question": "What symbol is used to denote comments in Python?",
+    "options": ["//", "<!--", "#", "/* */"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is not a programming language?",
+    "options": ["Java", "HTML", "C#", "Ruby"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which language is used for iOS app development?",
+    "options": ["Java","Kotlin","Swift", "Ruby"],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the file extension for a Python file?",
+    "options": [".java", ".py", ".cpp", ".html"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which programming language is best known for its use in web development with Node.js?",
+    "options": ["Python", "Ruby", "JavaScript", "PHP"],
+    "correctIndex": 2
+  },
+  {
+     "question": "In C language, which symbol is used to end a statement?",
+    "options": [":", ".", ";", "#"],
+    "correctIndex": 2 
+  },
+  {
+    "question": "Which of the following is a low-level programming language?",
+    "options": ["Python", "Assembly", "Java", "C#"],
+    "correctIndex": 1
+  }
+]

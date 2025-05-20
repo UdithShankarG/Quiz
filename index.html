@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+    rel="stylesheet"
+  />
+  <title>Interactive Quiz platform</title>
+</head>
+<body>
+  <main>
+    <!-- Start Screen: Welcome message and start button -->
+    <section class="welcomeSection hidden" id="welcomeContainer">
+      <div class="left">
+        <h1>Welcome to the Interactive Quiz Platform</h1>
+      </div>
+      <div class="right">
+        <h3>We Have 10 Questions to Test Your Knowledge</h3>
+        <button class="startQuizBtn" id="startQuizButton">Start Quiz</button>
+      </div>
+    </section>
+
+    <!-- Quiz Container: Contains question number, question text, timer, options, feedback, navigation -->
+    <section class="quizContainer" id="quizContainer">
+      <header class="quizHeader">
+        <div class="noBox" id="questionNumber">1</div>
+      </header>
+
+      <section class="quizQuestion">
+        <h2 id="questionText">
+          What is JavaScript and Python with all programming skills Lorem ipsum dolor sit amet?
+        </h2>
+        <span class="timeContainer" id="timer">30</span>
+      </section>
+
+      <section class="quizOptions">
+        <div class="opt one option" id="option1">Option 1 text</div>
+        <div class="opt two option" id="option2">Option 2 text</div>
+        <div class="opt three option" id="option3">Option 3 text</div>
+        <div class="opt four option" id="option4">Option 4 text</div>
+      </section>
+
+      <footer>
+        <div class="feedbackContainer" id="feedback">Select an answer to see feedback</div>
+        <div class="nextBtn">
+          <button id="nextButton" disabled>Next</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Result Screen: shows final score and restart button -->
+    <section class="resultPageSection" id="resultSection" style="display: none;">
+      <h1>Your Result</h1>
+      <div class="leftResult">
+        <p>Your score is <span id="score">0</span> out of <span id="totalScore">10</span></p>
+      </div>
+      <div class="rightResult">
+        <button id="restartButton">Restart Quiz</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
