@@ -4,9 +4,20 @@ This is a fully responsive and interactive **Quiz Web App** built using HTML, CS
 
 ---
 
-## Live
+---
 
+## Demo
 
+Check out the live demo here:  
+🔗 [Quiz-app Live](https://udithshankarg.github.io/Quiz/)
+
+### Screenshots
+
+| Location Permission Prompt       | Main UI View                   | Search Input                |
+|---------------------------------|-------------------------------|---------------------------------|
+| ![Location](./screenshots/intro.png)     | ![UI](./screenshots/quiz.png)               | ![User Input](./screenshots/result.png)  |
+
+---
 ## 📸 Features
 
 - 🧠 Dynamic quiz questions loaded from JSON
